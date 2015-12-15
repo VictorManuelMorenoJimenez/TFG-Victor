@@ -10,20 +10,3 @@ output: beamer_presentation
 
 ## Abstract/ Resumen
 Twitter es una red de microblogs donde los usuarios pueden escribir mensajes de corta longitud (140 carácteres). En este trabajo se investigará el papel que tienen las publicaciones de los usuarios, observando dos variables (valencia emocional de las palabras y la presencia del nombre de determinados partidos políticos), en el resultado electoral del 20/diciembre/2015.
-
-## Introducción
-Cosas que se han encontrado: dudas de si funciona o no funciona. Hay que ir poniendo las citas.
-
-
-## Slide with R Code and Output
-
-```{r}
-summary(cars)
-```
-
-## Slide with Plot
-
-```{r, echo=FALSE}
-plot(cars)
-```
-
