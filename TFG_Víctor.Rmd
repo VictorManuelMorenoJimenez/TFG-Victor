@@ -1,12 +1,12 @@
 ---
-title: "TFG_Víctor"
-author: "Victor Manuel Moreno Jiménez"
+title: "TFG_V?ctor"
+author: "Victor Manuel Moreno Jim?nez"
 date: "15 de diciembre de 2015"
 output: beamer_presentation
 ---
 
-## Título
-"Prediciendo las elecciones españolas por twitter"
+## T?tulo
+"Prediciendo las elecciones espa?olas mediante twitter"
 
 ## Abstract/ Resumen
-Twitter es una red de microblogs donde los usuarios pueden escribir mensajes de corta longitud (140 carácteres). En este trabajo se investigará el papel que tienen las publicaciones de los usuarios, observando dos variables (valencia emocional de las palabras y la presencia del nombre de determinados partidos políticos), en el resultado electoral del 20/diciembre/2015.
+Twitter es una red de microblogs donde los usuarios pueden escribir mensajes de corta longitud (140 car?cteres). En este trabajo se investigar? el papel que tienen las publicaciones de los usuarios, observando dos variables (valencia emocional de las palabras y la presencia del nombre de determinados partidos pol?ticos), en el resultado electoral del 20/diciembre/2015.
