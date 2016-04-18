@@ -1,10 +1,9 @@
-# Instalar paquetes
-install.packages(c("devtools", "rjson", "bit64", "httr"))
-
-#RESTART R session!
-library(devtools)
-install_github("twitteR", username="geoffjentry")
+# Ignorar
+install.packages("twitteR", "RCurl", "RJSONIO", "stringr")
 library(twitteR)
+library(RCurl)
+library(RJSONIO)
+library(stringr)
 
 #Twitter Authentication with R; archivo ignorado y tokkeys
 keys <- read.csv("tokkeys")
@@ -15,12 +14,8 @@ access_token_secret <- keys[["access_token_secret"]]
 
 setup_twitter_oauth(api_key,api_secret,access_token,access_token_secret)
 
-#Búsqueda en Twitter
+# Criterios búsqueda
 searchTwitter(searchString, n=25, lang=NULL, since=NULL, until=NULL,
               locale=NULL, geocode=NULL, sinceID=NULL, maxID=NULL,
               resultType=NULL, retryOnRateLimit=120, ...)
 
-# Mi búsqueda
-searchTwitter("Partido+Popular", n=2, since="2015-10-27", until="2015-12-20")
-
-searchTwitter("#Mariano")
