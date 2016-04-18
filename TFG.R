@@ -1,5 +1,5 @@
 # Ignorar
-install.packages("twitteR", "RCurl", "RJSONIO", "stringr")
+#install.packages("twitteR", "RCurl", "RJSONIO", "stringr")
 library(twitteR)
 
 #Twitter Authentication with R; archivo ignorado y tokkeys
