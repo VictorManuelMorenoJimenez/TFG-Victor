@@ -15,13 +15,14 @@ setup_twitter_oauth(api_key,api_secret,access_token,access_token_secret)
 fecha <- as.character(Sys.Date())
 
 # Criterios búsqueda
-searchTwitteR("Partido+Socialista", n=1, since= fecha) -> tweets
+searchTwitteR("Partido+Socialista", n=5000, since= fecha) -> tweets
 
 #Graba twits en fichero
 nombreFichero <- sprintf("Datos/%s.rds", fecha)
 saveRDS(tweets, nombreFichero)
 
-
+#Leer
+ttt <- readRDS(sprintf("Datos/%s.rds", fecha))
   
 # Notas (no hacer mucho caso)  
 ## Criterios búsqueda
