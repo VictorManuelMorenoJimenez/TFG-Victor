@@ -6,7 +6,7 @@ library(RJSONIO)
 library(stringr)
 
 #Twitter Authentication with R; archivo ignorado y tokkeys
-keys <- read.csv("tokkeys")
+keys <- read.csv("TweetTok")
 api_key <- keys[["api_key"]]
 api_secret <- keys[["api_secret"]]
 access_token <- keys[["access_token"]]
