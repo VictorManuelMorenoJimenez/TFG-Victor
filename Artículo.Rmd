@@ -3,7 +3,6 @@ title: "TFG-Víctor"
 author: "Victor Manuel Moreno Jiménez"
 ---
 #Introducción
-Introducción
 	Por años se han utilizado metodologías como las encuestas por los investigadores para medir los pensamientos e intenciones de una población de individuos. Estas incluyen un número de desventajas en las que se incluyen el esfuerzo humano y su coste económico y en relación a su tiempo de aplicación. Con la llegada de los medios sociales, hay una abundante información online donde las personas expresan sus sentimientos con respecto a una gran variedad de temas (Bermingham, A. y  Smeaton, 2011).
 	Twitter es un servicio de "microblogging" que comenzó a dar servicio en 2006 y posee más de 20 millones de visitas mensuales. En Twitter, cada usuario puede publicar breves mensajes de una longitud de 140 caracteres también llamados "tweets", que son visibles por los demás usuarios (Tumasjan et al., 2010).
 	El flujo público de las publicaciones de todos los usuarios de todo el mundo constituye una enorme fuente de información a tiempo real (Tumasjan et al., 2010).
